@@ -1,18 +1,27 @@
-# Cloud 실습 환경 설정
+# Google AI로 ML 분석하기
 
 ## 유의 사항
-- 클라우드 실습과 같은 경우, 무료 계정을 이용하여 실습을 하므로, 반드시 실습후 서비스를 종료해야 합니다.
-- 무료 계정이 지원되지 서비스를 수행할 경우 과금되니 주의합니다.
+- Google AI와 같은 경우 무료계정에서 지원되지 않으니, 실습과정을 지켜보고, 이해만 하시길 바랍니다. 
 
 
-## AWS 가입하기
+
+## AutoML을 이용한 꽃 이미지 분류하기
+- 참고 : https://cloud.google.com/vertex-ai
 
 
-- https://aws.amazon.com/ko/free/ 에 접속한다.
+### 프로젝트 및 환경설정
 
-![aws_free](./images/aws_free.jpg)
+- https://console.cloud.google.com/ 에 접속한다.
 
-- 무료 계정 생성버튼을 클릭하여 가입 절차를 진행한다. 
+- AI 분석을 수행할 프로젝트를 생성 또는 선택한다. 
+
+
+### 학습데이터 셋 만들기 및 이미지 가져오기
+
+
+![flower](./images/flower.jpg)
+
+- 본 실습에 사용하는 데이터셋은 https://cloud.google.com/blog/products/gcp/how-to-classify-images-with-tensorflow-using-google-cloud-machine-learning-and-cloud-dataflow 에서 
 
 
 - 가입절차가 완료 되면, https://console.aws.amazon.com/ 에 접속하여 클라우드 서비스를 둘러 본다.
